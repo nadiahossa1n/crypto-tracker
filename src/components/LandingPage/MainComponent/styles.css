@@ -55,17 +55,17 @@
   z-index: 10;
   min-width: 300px;
   width: 50%;
-  right: 40%;
-  transform: translateX(40%);
+  left: 52%;
+  transform: translateX(-44%);
 }
 
 .gradient {
   position: absolute;
   min-width: 250px;
   width: 40%;
-  top: 6rem;
-  right: 40%;
-  transform: translateX(40%);
+  top: 5.5rem;
+  left: 52%;
+  transform: translateX(-36%);
 }
 
 @media only screen and (max-width: 1250px) {
@@ -98,18 +98,19 @@
     display: flex;
     margin-top: 3rem;
     padding: 0;
-    width: 100%;
+    width: 50%;
   }
   .iphone,
   .gradient {
-    right: 42%;
-    transform: translateX(42%);
+    left: 50%;
+    transform: translateX(-36%);
   }
   .iphone {
     width: 250px;
   }
   .gradient {
     width: 200px;
+    top: 4.5rem;
   }
   .flex-info {
     align-items: center;
