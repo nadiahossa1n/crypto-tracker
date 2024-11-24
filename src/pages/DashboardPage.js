@@ -21,6 +21,7 @@ function DashboardPage() {
       .request(options)
       .then((res) => setCoins(res.data))
       .catch((err) => console.error(err));
+      console.log(coins)
   }, []);
 
   return (
