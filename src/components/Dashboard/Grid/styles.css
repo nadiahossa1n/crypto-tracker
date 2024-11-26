@@ -69,6 +69,7 @@
     font-weight: 600;
     color: var(--green);
     font-size: 1.1rem;
+    min-width: 64px;
 }
 
 .price-chip:hover,
@@ -99,7 +100,6 @@
     align-items: center;
     color: var(--green);
     font-size: 1.1rem;
-    padding: 2px;
 }
 
 .info-container {
